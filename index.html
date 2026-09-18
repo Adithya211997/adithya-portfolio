@@ -5,7 +5,13 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Home &mdash; Adithya Prasanna Kumar</title>
 <meta name="description" content="Portfolio of Adithya Prasanna Kumar, Architect and BIM Coordinator (RIBA Part 2).">
+<meta property="og:title" content="Adithya Prasanna Kumar — Architect &amp; BIM Coordinator">
+<meta property="og:description" content="RIBA Part 2 architect &amp; BIM coordinator — 6+ years across the UK, India, the Middle East and Uzbekistan. Cinematic portfolio.">
+<meta property="og:image" content="https://adithya211997.github.io/adithya-portfolio/assets/img/cover.jpg">
+<meta property="og:url" content="https://adithya211997.github.io/adithya-portfolio/">
+<meta name="twitter:card" content="summary_large_image">
 <link rel="stylesheet" href="assets/css/style.css">
+<link rel="stylesheet" href="assets/css/walkthrough-hero.css">
 </head>
 <body>
 <div class="blueprint-grid"></div>
@@ -31,24 +37,27 @@
 </nav>
 
 
-<header class="hero">
-  <div class="hero-media"><img src="assets/img/cover.jpg" alt="Featured architectural render"></div>
-  <div class="hero-scan"></div>
-  <div class="wrap hero-content">
-    <div class="hero-kicker">
-      <span data-ticker>LOCAL TIME</span>
-      <span>SHEET A-00 &mdash; COVER</span>
-      <span>Dubai, UAE</span>
-    </div>
-    <h1 class="hero-title">ADITHYA<br>PRASANNA<span>.</span></h1>
-    <div class="hero-sub">
-      <p class="hero-role">Architect &amp; BIM Coordinator — RIBA Part 2. 6+ years across residential, commercial &amp; sports infrastructure in India, the Middle East and the UK &mdash; taking BIM-coordinated projects from concept through <strong>clash-free, construction-ready</strong> documentation.</p>
-      <div class="hero-meta">
-        <div>Experience<b>6+ Yrs</b></div>
-        <div>Projects<b>25+</b></div>
-        <div>Countries<b>4</b></div>
-      </div>
-    </div>
+<header id="filmHero" aria-label="Cinematic walkthrough — MSR City">
+  <div id="fhVig"></div><div id="fhGrain"></div>
+  <div class="fh-hud">
+    <span><span data-ticker>LOCAL TIME</span> &middot; <b>MSR City</b> &middot; Devanahalli</span>
+    <span class="fh-rec"><i></i><span id="fhShot">CH 01 &mdash; Cover</span></span>
+    <span class="fh-loc">Sheet A-00 &mdash; Walkthrough film</span>
+  </div>
+  <div class="fh-card">
+    <div class="k"></div>
+    <h1></h1>
+    <p></p>
+    <a class="fh-cta" href="work.html" style="display:none;"></a>
+  </div>
+  <div class="fh-note">Real-time concept model<br>Not official marketing imagery</div>
+  <div class="fh-tl">
+    <button class="fh-play" type="button" aria-label="Pause">
+      <svg class="iq" viewBox="0 0 10 10"><rect x="1" y="0" width="3" height="10"/><rect x="6" y="0" width="3" height="10"/></svg>
+      <svg class="ip" viewBox="0 0 10 10" style="display:none;"><path d="M1 0 L10 5 L1 10 Z"/></svg>
+    </button>
+    <div class="fh-chs"></div>
+    <span class="fh-tc" id="fhTc">00:00</span>
   </div>
 </header>
 
@@ -181,5 +190,7 @@
 </footer>
 
 <script src="assets/js/main.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
+<script src="assets/js/walkthrough-hero.js"></script>
 </body>
 </html>
